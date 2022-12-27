@@ -63,14 +63,11 @@ public class Main extends Application {
 		
 		public static String appdataDir;
 		
-		
-		
-		
 		public static void main(String[] args) {
-			
-			Main.launch();
+			launch();
 		}
-
+		
+		
 		
 		public static void copyInputStreamToFile(InputStream input, File file) {  
 
