@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="904.0" style="-fx-background-color: #dca487;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lupo.callopener.EditorController">
+   <children>
+      <Label fx:id="editorTitle" alignment="TOP_CENTER" layoutX="-1.0" layoutY="39.0" prefHeight="55.0" prefWidth="904.0" style="-fx-text-fill: #7C655C;" text="Monday">
+         <font>
+            <Font name="Lucida Sans Demibold" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="77.0" />
+      <GridPane layoutX="2.0" layoutY="105.0" prefHeight="507.0" prefWidth="900.0">
+         <children>
+            <Label style="-fx-text-fill: #7C655C;" text="Name" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="Lucida Sans Demibold" size="24.0" />
+               </font>
+            </Label>
+            <Label style="-fx-text-fill: #7C655C;" text="Time (Ex. 10:39 am)" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Demibold" size="15.0" />
+               </font>
+            </Label>
+            <Label style="-fx-text-fill: #7C655C;" text="Meeting URL" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="n1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t1" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u1" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u2" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t3" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t4" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u4" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n5" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t5" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u5" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n6" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t6" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u6" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n7" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t7" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u7" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n8" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t8" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u8" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n9" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t9" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u9" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="n10" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="t10" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="u10" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Lucida Bright Regular" size="14.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="437.0" minWidth="10.0" prefWidth="173.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="584.0" minWidth="10.0" prefWidth="172.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="657.0" minWidth="10.0" prefWidth="558.0" />
+         </columnConstraints>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Button fx:id="buttonSave" layoutX="410.0" layoutY="638.0" mnemonicParsing="false" onAction="#buttonSaveAct" style="-fx-background-color: #7C655C; -fx-text-fill: #ffffff;" text="Save">
+         <font>
+            <Font name="Lucida Sans Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonCancel" layoutX="545.0" layoutY="638.0" mnemonicParsing="false" onAction="#buttonCancelAct" style="-fx-background-color: #7C655C; -fx-text-fill: #ffffff;" text="Cancel">
+         <font>
+            <Font name="Lucida Sans Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonClear" layoutX="263.0" layoutY="638.0" mnemonicParsing="false" onAction="#buttonClearAct" style="-fx-background-color: #7C655C; -fx-text-fill: #ffffff;" text="Clear">
+         <font>
+            <Font name="Lucida Sans Regular" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

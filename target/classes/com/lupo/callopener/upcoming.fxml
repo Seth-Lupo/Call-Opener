@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="676.0" prefWidth="929.0" style="-fx-background-color: #8593AC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lupo.callopener.UpcomingController">
+   <children>
+      <Label fx:id="title" alignment="CENTER" contentDisplay="TOP" style="-fx-text-fill: #584D4C;" text="Upcoming Calls" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Sans Demibold" size="39.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" top="30.0" />
+         </VBox.margin>
+      </Label>
+      <GridPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #8593AC;" vgap="3.0" VBox.vgrow="ALWAYS">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="843.0" minWidth="10.0" prefWidth="142.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="855.0" minWidth="10.0" prefWidth="707.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints fx:id="r1" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints fx:id="r2" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints fx:id="r3" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints fx:id="r4" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints fx:id="r5" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints fx:id="r6" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints fx:id="r7" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+          <RowConstraints fx:id="r8" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+          <RowConstraints fx:id="r9" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+          <RowConstraints fx:id="r10" maxHeight="60.0" minHeight="40.0" prefHeight="60.0" vgrow="NEVER" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="b1" mnemonicParsing="false" onAction="#b1Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="19.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b2" mnemonicParsing="false" onAction="#b2Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b3" mnemonicParsing="false" onAction="#b3Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b10" mnemonicParsing="false" onAction="#b10Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b9" mnemonicParsing="false" onAction="#b9Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Bright Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b8" mnemonicParsing="false" onAction="#b8Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Bright Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b7" mnemonicParsing="false" onAction="#b7Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b6" mnemonicParsing="false" onAction="#b6Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Bright Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b5" mnemonicParsing="false" onAction="#b5Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="b4" mnemonicParsing="false" onAction="#b4Act" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #dca487; -fx-text-fill: #ffffff;" text="Join" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Label fx:id="t1" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t2" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t3" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t4" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t5" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t6" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t7" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t8" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t9" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="t10" prefHeight="34.0" prefWidth="1055.0" style="-fx-text-fill: #584D4C;" text="E" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Lucida Sans Regular" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="2.0" right="20.0" />
+         </padding>
+      </GridPane>
+      <Button fx:id="closeButton" mnemonicParsing="false" onAction="#closeButtonAct" prefHeight="50.0" prefWidth="159.0" style="-fx-background-color: #7C655C; -fx-text-fill: #ffffff;" text="Done">
+         <font>
+            <Font name="Lucida Sans Demibold" size="24.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" top="30.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
